@@ -1,5 +1,5 @@
 import turtle as t
-print("Digite a figura que quer (quadrado/circulo/retangulo)")
+print("Digite a figura que quer (quadrado/circulo)")
 forma=str(input())
 print("Digite a cor que quer em inglês(ex: red, blue, black)")
 cor=str(input())
