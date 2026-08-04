@@ -4,7 +4,8 @@ forma=str(input())
 print("Digite a cor que quer em inglês(ex: red, blue, black)")
 cor=str(input())
 if forma=="quadrado":
-    print("Digite o tamanho do lado em um numero inteiro")
+    print("Digite o tamanho em Unidades de Comprimento (UC)")
+    print("(Recomendavél que o valor inserido seja >100)")
     front = int(input())
     def quadrado(cor, veloc, front, direita):
         for angulo in range(0, 100, 15):
